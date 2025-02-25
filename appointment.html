@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Karam Dental</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/Images/dentallogo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="appointment.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar" style="position: relative; top: 0">
+        <h2>Haris Saeed</h2>
+        <ul class="navbar-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About US</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="appointment.html" class="active">Appointment</a></li>
+        </ul>
+        <span class="menu-icon">&#9776;</span>
+      </nav>
+      <div class="about-Us">
+        <h2>Appointment Page</h2>
+      </div>
+    </header>
+    <!-- Form -->
+    <section class="form">
+      <div class="main">
+        <form action="" class="form_1">
+          <div class="personal">
+            <h3><strong>Give Personal Info:</strong></h3>
+            <div class="form-control">
+              <input type="value" required="" />
+              <label>
+                <span style="transition-delay: 0ms">U</span
+                ><span style="transition-delay: 50ms">s</span
+                ><span style="transition-delay: 100ms">e</span
+                ><span style="transition-delay: 150ms">r</span
+                ><span style="transition-delay: 200ms">n</span
+                ><span style="transition-delay: 250ms">a</span
+                ><span style="transition-delay: 300ms">m</span
+                ><span style="transition-delay: 350ms">e</span>
+              </label>
+            </div>
+            <div class="form-control">
+              <input type="email" required="" />
+              <label>
+                <span style="transition-delay: 0ms">E</span
+                ><span style="transition-delay: 50ms">m</span
+                ><span style="transition-delay: 100ms">a</span
+                ><span style="transition-delay: 150ms">i</span
+                ><span style="transition-delay: 200ms">l</span>
+              </label>
+            </div>
+            <div class="form-control">
+              <input type="number" required="" />
+              <label>
+                <span style="transition-delay: 0ms">P</span
+                ><span style="transition-delay: 50ms">h</span
+                ><span style="transition-delay: 100ms">o</span
+                ><span style="transition-delay: 150ms">n</span
+                ><span style="transition-delay: 200ms">e</span
+                ><span style="transition-delay: 250ms"> </span
+                ><span style="transition-delay: 300ms">N</span
+                ><span style="transition-delay: 350ms">o</span>
+              </label>
+            </div>
+          </div>
+          <h4><strong>Gender:</strong></h4>
+          <div class="container">
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="Male"
+                checked
+              />
+              <span>Male</span>
+            </label>
+            <label>
+              <input type="radio" name="gender" id="female" value="Female" />
+              <span>Female</span>
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="gender"
+                id="rather-not-say"
+                value="Rather Not to Say"
+              />
+              <span>Rather Not to Say</span>
+            </label>
+          </div>
+          <div class="treatment">
+            <h3><strong>Select Treatment:</strong></h3>
+            <div class="chechboxes">
+              <div id="checklist">
+                <input
+                  checked
+                  value="general-checkup"
+                  name="treatment"
+                  type="checkbox"
+                  id="general-checkup"
+                />
+                <label for="general-checkup">General Checkup</label>
+
+                <input
+                  value="root-canal"
+                  name="treatment"
+                  type="checkbox"
+                  id="root-canal"
+                />
+                <label for="root-canal">Root Canal Treatment</label>
+
+                <input
+                  value="teeth-whitening"
+                  name="treatment"
+                  type="checkbox"
+                  id="teeth-whitening"
+                />
+                <label for="teeth-whitening">Teeth Whitening</label>
+
+                <input
+                  value="x-rays"
+                  name="treatment"
+                  type="checkbox"
+                  id="x-rays"
+                />
+                <label for="x-rays">X-Rays</label>
+
+                <input
+                  value="braces"
+                  name="treatment"
+                  type="checkbox"
+                  id="braces"
+                />
+                <label for="braces">Braces</label>
+
+                <input
+                  value="mini-implant"
+                  name="treatment"
+                  type="checkbox"
+                  id="mini-implant"
+                />
+                <label for="mini-implant">Mini-Implant</label>
+
+                <input
+                  value="implant"
+                  name="treatment"
+                  type="checkbox"
+                  id="implant"
+                />
+                <label for="implant">Implant</label>
+
+                <input
+                  value="laser-filling"
+                  name="treatment"
+                  type="checkbox"
+                  id="laser-filling"
+                />
+                <label for="laser-filling">Laser Filling</label>
+
+                <input
+                  value="simple-filling"
+                  name="treatment"
+                  type="checkbox"
+                  id="simple-filling"
+                />
+                <label for="simple-filling">Simple Filling</label>
+              </div>
+            </div>
+          </div>
+          <div class="doctor">
+            <h3><strong>Select Your Desired Doctor</strong></h3>
+            <div class="container">
+                <label>
+                    <input type="radio" name="doctor" id="dr-haris-saeed" value="Dr. Haris Saeed" checked />
+                    <span>Dr. Haris Saeed</span>
+                </label>
+                <label>
+                    <input type="radio" name="doctor" id="dr-tayyab-hanif" value="Dr. Tayyab Hanif" />
+                    <span>Dr. Tayyab Hanif</span>
+                </label>
+                <label>
+                    <input type="radio" name="doctor" id="dr-abdul-rauf" value="Dr. Abdul Rauf" />
+                    <span>Dr. Abdul Rauf</span>
+                </label>
+            </div>
+        </div>
+        
+
+          <button class="button">
+            <a href="about.html" class="button-content">Submit </a>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer></footer>
+    <script src="script.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>
